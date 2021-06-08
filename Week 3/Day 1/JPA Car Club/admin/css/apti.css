@@ -1,0 +1,36 @@
+
+
+p.apti-text {
+	font-style: italic; 
+	padding: 10px 10px 10px 15px !important;
+	font-size: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	margin: -7px -12px 20px -12px;
+	border-left: 4px solid #0074a2;
+    background: #fff;
+}
+#commentsdiv p.apti-text,
+#submitdiv p.apti-text {
+	margin: 0px 0px 10px 0px;
+}
+
+#apti-above-title,
+#apti-below-title {
+	font-style: italic;
+	font-size: 13px;
+	padding: 10px 10px 10px 15px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 4px solid #0074a2;
+	background: #fff;
+}
+#apti-above-title {
+	margin: 10px 25px 15px 25px;
+}
+#apti-below-title {
+    margin: 0 25px 15px 25px;
+}
+
+#edit-slug-box {
+    min-height: 0px !important;
+}
