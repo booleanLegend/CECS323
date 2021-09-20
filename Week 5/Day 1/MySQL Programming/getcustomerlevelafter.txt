@@ -1,0 +1,15 @@
+CREATE PROCEDURE GetCustomerLevel(
+    IN  p_customerNumber INT(11),
+    OUT p_customerLevel  varchar(10)
+)
+BEGIN
+    DECLARE creditlim DOUBLE;
+ 
+    SELECT creditlimit INTO creditlim
+    FROM customers
+    WHERE customerNumber = p_customerNumber;
+ 
+    SELECT CUSTOMERLEVEL(creditlim) 
+    INTO p_customerLevel;
+ 
+END
